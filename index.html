@@ -48,17 +48,19 @@
 
     <main role="main" class="inner cover">
       <h1 class="cover-heading">Want to hear fart sound?</h1>
-      <p class="lead">Your in luck for this one my good person, this dumb project of mine will surely get you in hook! Hear the sound of your fart by pressing the buttons down below</p>
+      <p class="lead">Your in luck for this one my good person, this dumb project of mine will surely get you in hook! Hear the sound of your fart by choosing from the DROP UP list DOWN below.</p>
 
-      <button class="btn dropdown-toggle btn-dark btn-lg" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        FART List
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenu2" id="farts">
-        <script>
-          for (f in farts) {
-            $('#farts').append('<button class="click dropdown-item" data-fart="' + f + '"><b>' + f + '</b></button>');
-          }
-        </script>
+      <div class="bt-group dropup">
+        <button class="btn dropdown-toggle btn-dark btn-lg" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          FART List
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu2" id="farts">
+          <script>
+            for (f in farts) {
+              $('#farts').append('<button class="click dropdown-item" data-fart="' + f + '"><b>' + f + '</b></button>');
+            }
+          </script>
+        </div>
       </div>
     </main>
 
